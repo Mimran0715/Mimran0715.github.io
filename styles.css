@@ -1,0 +1,81 @@
+/* Reset some default styles */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a calming background color */
+body {
+    background-color: #f0f0f0; /* Light grayish background */
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Style the header */
+header {
+    background-color: #fff; /* White header background */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for header */
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5em;
+    color: #333; /* Dark gray text color */
+}
+
+/* Style the navigation menu */
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #555; /* Medium gray text color */
+}
+
+/* Style the main content area */
+main {
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff; /* White content background */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for content */
+}
+
+/* Style individual blog posts */
+article {
+    margin-bottom: 30px;
+}
+
+article h2 {
+    font-size: 1.5em;
+    color: #333; /* Dark gray text color */
+}
+
+article p {
+    color: #555; /* Medium gray text color */
+}
+
+/* Style the "Read more" links */
+article a {
+    text-decoration: none;
+    color: #007bff; /* Blue link color */
+}
+
+article a:hover {
+    text-decoration: underline;
+}
+
+/* Style the footer */
+footer {
+    background-color: #fff; /* White footer background */
+    text-align: center;
+    padding: 10px;
+    color: #555; /* Medium gray text color */
+    border-top: 1px solid #ddd; /* Separator line */
+}
