@@ -2,44 +2,59 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Maleeha Imran</title>
-    <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file -->
-</head>
-<body>
-    <header>
-        <h1>Maleeha Imran</h1>
-        <nav>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
-    <main>
-        <article>
-            <h2>Post Title 1</h2>
-            <p>Published on <time datetime="2023-01-15">January 15, 2023</time> by Author Name</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. Fusce volutpat, tortor ut varius rhoncus...</p>
-            <a href="post1.html">Read more</a>
-        </article>
+    <title>Maleeha Imran</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
 
-        <article>
-            <h2>Post Title 2</h2>
-            <p>Published on <time datetime="2023-01-20">January 20, 2023</time> by Author Name</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. Fusce volutpat, tortor ut varius rhoncus...</p>
-            <a href="post2.html">Read more</a>
-        </article>
+<body>
+    <section id="home">
+        <div id="title_page">
+            <div id = 'title_text'>
+                <h1 id="title_name">M. Imran</h1>
+            </div> 
+            
+            <div id="'title_buttons">
+                <ul id="button_list">
+                    <li id="list_link"><a href="#about" class="button">About</a></li>
+                    <li id="list_link"><a href="#projects" class="button">Projects</a></li>
+                    <li id="list_link"><a href="https://www.linkedin.com/in/muhammad-imran-5996aa1b0/" class="button">LinkedIn</a></li>
+                    <li id="list_link"><a href="https://github.com/shaheerimran" class="button">Github</a></li>
+                    <li id="list_link"><a href="#about" class="button">Resume</a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
 
-        <!-- Add more articles here as needed -->
-    </main>
+    <section id="projects">
+        <div id="projects_view">
+            <h1>Projects</h1>
+            <div id="project_cards">
+                <div class="card card_proj"style="width: 18rem;">
+                    <div class="card-body">
+                        <!-- <img src="lab.jpeg" alt="Project 1: LabManager">-->
+                        <h5 class="card-title">LabManager</h4>
+                        <p class="card-text">A Discord bot for managing group labs. In progress. </p>
+                        <a href="#" class="btn btn-primary btn_view">View</a>
+                    </div>
+                </div>
+                <div class="card card_proj"style="width: 18rem;">
+                    <div class="card-body">
+                        <!-- <img src="lab.jpeg" alt="Project 1: LabManager">-->
+                        <h5 class="card-title">Wallpaper Generator</h4>
+                        <p class="card-text">A wallpaper generator. 2020.</p>
+                        <a href="#" class="btn btn-primary btn_view">View</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Add more projects here as needed -->
+    </section>
 
-    <footer>
-        <p>&copy; 2023 </p>
-    </footer>
+    <script src="script.js"></script>
 </body>
 </html>
-
-
