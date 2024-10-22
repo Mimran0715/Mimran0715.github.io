@@ -1,4 +1,12 @@
-@import 'tailwindcss'; 
+/* @import 'tailwindcss'; 
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities'; */
+
+/* styles/global.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 ::selection {
   background-color: #47a3f3;
@@ -47,9 +55,14 @@ html {
   @apply visible;
 }
 
-.prose a {
+/* .prose a {
   @apply underline transition-all decoration-neutral-400 dark:decoration-neutral-600 underline-offset-2 decoration-[0.1em];
+} */
+
+.prose a {
+  @apply underline transition-all underline-offset-2 decoration-[0.1em];
 }
+
 
 .prose .anchor:after {
   @apply text-neutral-300 dark:text-neutral-700;
