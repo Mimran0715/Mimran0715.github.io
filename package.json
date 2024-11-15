@@ -15,6 +15,7 @@
     "postcss-loader": "^8.1.1",
     "react": "latest",
     "react-dom": "latest",
+    "react-markdown": "^9.0.1",
     "style-loader": "^4.0.0"
   },
   "devDependencies": {
