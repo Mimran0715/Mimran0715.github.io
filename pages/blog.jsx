@@ -51,7 +51,7 @@ const Blog = () => {
         <h1 className="text-3xl font-bold mb-6">Blog</h1>
         <ul className="space-y-4">
           <li>
-            <a href="/public/posts/blog1.html" className="text-blue-500 hover:underline text-xl">
+            <a href="Mimran0715.github.io/public/posts/blog1.html" className="text-blue-500 hover:underline text-xl">
               Blog Post 1: Exploring Machine Learning in Real-World Applications
             </a>
           </li>
