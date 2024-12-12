@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Understanding Package Managers"
+title:  "Studing Large Langauge Models"
 date:   2024-11-22 12:51:20 -0800
 categories: jekyll update
 ---
