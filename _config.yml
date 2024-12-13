@@ -21,7 +21,8 @@
 title: M Imran
 email: maleeha.imranm@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Welcome! This is a place for my notes on various topics I want to explore and learn.
+  Welcome! This is a place for my notes on various topics I want to explore and learn. This is 
+  a slightly modified version of Jekyll's Minima theme.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: None
