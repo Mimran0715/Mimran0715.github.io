@@ -1,3 +1,5 @@
+import resume from "../assets/resume.pdf"
+
 export default function Header() {
   return (
     <header style={{ marginBottom: 40 }}>
@@ -19,6 +21,7 @@ export default function Header() {
         <a href="mailto:maleeha.imranm@gmail.com">Email</a>
         <a href="https://www.linkedin.com/in/maleeha-imran/" target="_blank">LinkedIn</a>
         <a href="https://github.com/Mimran0715" target="_blank">GitHub</a>
+        <a href={resume} target="_blank">Resume</a>
       </div>
       
     </header>

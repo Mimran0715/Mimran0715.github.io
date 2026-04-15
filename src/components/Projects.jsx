@@ -14,7 +14,8 @@ export default function Projects() {
         "Deployed with Dockerized services"
       ],
       stack: "React · TypeScript · Next.js · APIs",
-      image: medtracker
+      image: medtracker, 
+      link: ""
     },
     {
       title: "Drafts – AI Writing Companion",
@@ -26,7 +27,8 @@ export default function Projects() {
         "TypeScript architecture"
       ],
       stack: "Electron · React · TypeScript",
-      image: drafts
+      image: drafts, 
+      link: ""
     },
   ]
 

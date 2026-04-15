@@ -1,4 +1,4 @@
-export default function ProjectCard({ title, desc, points = [], stack, image }) {
+export default function ProjectCard({ title, desc, points = [], stack, image, link }) {
   return (
     <div style={styles.card}>
 
@@ -20,6 +20,7 @@ export default function ProjectCard({ title, desc, points = [], stack, image }) 
       </ul>
 
       <p style={styles.stack}>{stack}</p>
+      <a style={styles.link} href={link} target="_blank">Github</a>
     </div>
   )
 }
@@ -57,6 +58,10 @@ const styles = {
   stack: {
     fontSize: 20,
     color: "#999",
+    margin: 0
+  }, 
+  link: {
+    fontSize: 20,
     margin: 0
   }
 }
