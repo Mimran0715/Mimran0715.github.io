@@ -1,5 +1,7 @@
 import ProjectCard from "./ProjectCard"
 import  drafts from "../assets/drafts.png"
+import  medtracker from "../assets/medtracker.png"
+console.log("image import:", drafts)
 
 export default function Projects() {
   const projects = [
@@ -12,7 +14,7 @@ export default function Projects() {
         "Deployed with Dockerized services"
       ],
       stack: "React · TypeScript · Next.js · APIs",
-      image: null
+      image: medtracker
     },
     {
       title: "Drafts – AI Writing Companion",
@@ -30,7 +32,7 @@ export default function Projects() {
 
   return (
     <section>
-      <h2 style={{ fontSize: 24, marginBottom: 20 }}>Projects</h2>
+      <h2 style={{ fontSize: 44, marginBottom: 20 }}>Projects</h2>
 
       <div style={{
         display: "grid",
