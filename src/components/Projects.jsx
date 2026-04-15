@@ -1,4 +1,5 @@
 import ProjectCard from "./ProjectCard"
+import  drafts from "../assets/drafts.png"
 
 export default function Projects() {
   const projects = [
@@ -10,7 +11,8 @@ export default function Projects() {
         "REST API integration",
         "Deployed with Dockerized services"
       ],
-      stack: "React · TypeScript · Next.js · APIs"
+      stack: "React · TypeScript · Next.js · APIs",
+      image: null
     },
     {
       title: "Drafts – AI Writing Companion",
@@ -21,7 +23,8 @@ export default function Projects() {
         "Real-time writing feedback",
         "TypeScript architecture"
       ],
-      stack: "Electron · React · TypeScript"
+      stack: "Electron · React · TypeScript",
+      image: drafts
     },
   ]
 
