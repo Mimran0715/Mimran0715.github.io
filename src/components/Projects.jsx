@@ -1,46 +1,42 @@
 import ProjectCard from "./ProjectCard"
-import  drafts from "../assets/drafts.png"
-import  medtracker from "../assets/medtracker.png"
-console.log("image import:", drafts)
 
 export default function Projects() {
   const projects = [
     {
       title: "Smart Medication Tracker",
       desc: "Production-ready medication tracking system with reporting and scheduling.",
-      points: [
+      details: [
         "React + TypeScript full-stack application",
         "REST API integration",
         "Deployed with Dockerized services"
       ],
       stack: "React · TypeScript · Next.js · APIs",
-      image: medtracker, 
-      link: ""
+      period: "2025",
+      links: []
     },
     {
-      title: "Drafts – AI Writing Companion",
+      title: "Drafts - AI Writing Companion",
       desc: "Desktop AI writing assistant with contextual feedback.",
-      points: [
+      details: [
         "Electron + React desktop app",
         "LangChain integration",
         "Real-time writing feedback",
         "TypeScript architecture"
       ],
       stack: "Electron · React · TypeScript",
-      image: drafts, 
-      link: ""
+      period: "2025",
+      links: []
     },
   ]
 
   return (
-    <section>
-      <h2 style={{ fontSize: 44, marginBottom: 20 }}>Projects</h2>
+    <section className="projects-section" aria-labelledby="projects-title">
+      <div className="section-heading">
+        <p className="eyebrow">Selected Work</p>
+        <h2 id="projects-title">Projects</h2>
+      </div>
 
-      <div style={{
-        display: "grid",
-        gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))",
-        gap: 20
-      }}>
+      <div className="project-grid">
         {projects.map((p, i) => (
           <ProjectCard key={i} {...p} />
         ))}
