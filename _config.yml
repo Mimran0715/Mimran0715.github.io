@@ -1,0 +1,46 @@
+title: Mimran's Technical Blog
+tagline: Notes on software, systems, and the web
+description: A technical blog about building reliable software and learning in public.
+url: "https://mimran0715.github.io"
+baseurl: ""
+lang: en-US
+timezone: America/Los_Angeles
+permalink: /:year/:month/:day/:title/
+paginate: 5
+paginate_path: /page:num/
+
+author:
+  name: Mimran
+  url: https://github.com/Mimran0715
+
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-seo-tag
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+exclude:
+  - .git
+  - .github
+  - .jekyll-cache
+  - .sass-cache
+  - Gemfile
+  - Gemfile.lock
+  - GITHUB.md
+  - GITHUB_JEKYLL.md
+  - JEKYLL.MD
+  - LICENSE.md
+  - README.md
+  - node_modules
+  - package-lock.json
+  - package.json
+  - eslint.config.js
+  - vite.config.js
+  - dist
+  - public
+  - src
+
+version: 3.0.0
